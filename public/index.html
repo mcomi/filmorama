@@ -92,20 +92,28 @@
         <div
           class="bg-gray-300 rounded-full p-1 w-64 h-64 md:w-56 md:h-56 md:ml-auto"
         >
-          <img
-            class="rounded-full h-full border-gray-400 transform hover:scale-95 transition ease-out duration-300"
-            src="img/filmorama.jpg"
-            alt="personajes"
-          />
+          <picture>
+            <source srcset="img/filmorama.webp" type="image/webp" />
+            <source srcset="img/filmorama.jpg" type="image/jpeg" />
+            <img
+              class="rounded-full h-full border-gray-400 transform hover:scale-95 transition ease-out duration-300"
+              src="img/filmorama.jpg"
+              alt="Personajes de cine"
+            />
+          </picture>
         </div>
         <div
           class="bg-gray-300 rounded-full p-1 w-64 h-64 md:w-56 md:h-56 md:mr-auto"
         >
-          <img
-            class="rounded-full h-full border-gray-400 transform hover:scale-95 transition ease-out duration-300"
-            src="img/terrormexicana.jpg"
-            alt="terror"
-          />
+          <picture>
+            <source srcset="img/terrormexicana.webp" type="image/webp" />
+            <source srcset="img/terrormexicana.jpg" type="image/jpeg" />
+            <img
+              class="rounded-full h-full border-gray-400 transform hover:scale-95 transition ease-out duration-300"
+              src="img/terrormexicana.jpg"
+              alt="Cine de Terror"
+            />
+          </picture>
         </div>
       </div>
     </main>
