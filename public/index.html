@@ -32,11 +32,15 @@
     <main>
       <section class="h-auto">
         <div class="h-full">
-          <img
-            class="object-fill"
-            src="img/banner-filmorama.jpg"
-            alt="filmoramas"
-          />
+          <picture>
+            <source srcset="img/banner-filmorama.webp" type="image/webp" />
+            <source srcset="img/banner-filmorama.jpg" type="image/jpeg" />
+            <img
+              class="object-fill"
+              src="img/banner-filmorama.jpg"
+              alt="Filmoramas banner"
+            />
+          </picture>
         </div>
       </section>
 
